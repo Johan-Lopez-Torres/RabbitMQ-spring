@@ -14,7 +14,7 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(columnDefinition = "jsonb")
+//    @Column(columnDefinition = "jsonb")
     private String orderDetails;
 
     private String status;
