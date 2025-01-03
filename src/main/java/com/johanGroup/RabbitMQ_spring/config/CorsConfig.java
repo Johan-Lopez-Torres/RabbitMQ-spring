@@ -12,6 +12,8 @@ public class CorsConfig {
 
 
 fake
+    ggg
+
 
     @Bean
     public CorsFilter corsFilter() {
